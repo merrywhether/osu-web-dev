@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>You Get the Gist!</title>
+    <link rel='stylesheet' href='style.css'>
+  </head>
+  <body>
+    <h1>You Get the Gist!</h1>
+    <h2>Favorites</h2>
+    <div id="favoriteGistsContainer">
+      <ul id="favoriteGists">
+      </ul>
+    </div>
+    <h2>Search</h2>
+    <div class="filters">
+      Filters:
+      <label for='python'>Python</label>
+      <input type='checkbox' name='python' id='python'>
+      <label for='json'>JSON</label>
+      <input type='checkbox' name='json' id='json'>
+      <label for='javascript'>JavaScript</label>
+      <input type='checkbox' name='javascript' id='javascript'>
+      <label for='sql'>SQL</label>
+      <input type='checkbox' name='sql' id='sql'>
+      <label for='pages'>Pages:</label>
+      <select id='pages'>
+        <option value=1>1</option>
+        <option value=2>2</option>
+        <option value=3>3</option>
+        <option value=4>4</option>
+        <option value=5>5</option>
+      </select>
+      <button id='search'>Search</button>
+    </div>
+
+    <div id='currentGistsContainer'>
+      <ul id='currentGists'>
+
+      </ul>
+    </div>
+    <script src='js/models.js'></script>
+    <script src='js/collections.js'></script>
+    <script src='js/modelViews.js'></script>
+    <script src='js/collectionViews.js'></script>
+    <script src='js/app.js'></script>
+  </body>
+</html>

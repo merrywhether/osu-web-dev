@@ -1,0 +1,99 @@
+body {
+  background-color: honeydew;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+.filters,
+#search {
+  font-size: 18px;
+}
+
+label,
+#search {
+  margin-left: 20px;
+}
+
+.favorite-gist,
+.gist {
+  background-color: linen;
+  border: 1px solid maroon;
+  list-style-type: none;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  display: inline-block;
+  vertical-align: top;
+  width: 200px;
+  min-height: 200px;
+  word-wrap:break-word;
+  position: relative;
+}
+
+.gist a {
+  color: darksalmon;
+}
+
+.favorite-gist {
+  background-color: lightsalmon;
+  border: 1px solid darkslategray;
+}
+
+.favorite-gist a {
+  color: maroon;
+}
+
+.gist a:hover,
+.gist a:visited {
+  color: orchid;
+}
+
+.favorite-gist a:hover,
+.favorite-gist a:visited {
+  color: darkorchid;
+}
+
+.title,
+.id-line,
+.byline {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.id-line {
+  font-size: 12px;
+}
+
+.byline {
+  font-style: italic;
+}
+
+.language-header,
+.language-list {
+  display: inline;
+  padding: 0;
+}
+
+.language-list li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+.remove-favorite,
+.add-favorite {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  border-color: maroon;
+  background-color: lightsalmon;
+}
+
+.remove-favorite {
+  border-color: white;
+  color: white;
+  background-color: darkslategray;
+}

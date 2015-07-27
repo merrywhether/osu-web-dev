@@ -1,0 +1,74 @@
+.error-list {
+  color: red;
+}
+
+.error-list h4 {
+  margin-bottom: 0;
+}
+
+.error-list ul {
+  margin-top: 5px;
+  list-style-type: none;
+}
+
+.videos-container {
+  position: relative;
+  display:inline-block;
+}
+
+input[name=delete-all] {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+}
+
+caption {
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+td {
+  border: 1px solid black;
+  padding: 5px;
+}
+.name {
+  min-width: 300px;
+}
+
+.category {
+  min-width: 100px;
+}
+
+.length {
+  min-width: 70px;
+}
+
+.availability {
+  min-width: 170px;
+  position: relative;
+}
+
+.availability input {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+.delete {
+  min-width: 60px;
+  text-align: center;
+}
+
+.delete input {
+  display: inline-block;
+}
+
+.new-video input {
+  margin-right: 10px;
+}
