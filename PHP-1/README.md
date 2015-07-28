@@ -1,4 +1,4 @@
-OSU CS Assignment #1
+OSU PHP Assignment #1
 ====================
 
 [multable.php](http://web.engr.oregonstate.edu/~keravuor/cs290/assignment4-part1/multtable.php)
